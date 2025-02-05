@@ -165,10 +165,85 @@
 ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-[วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+</head>
+<body>
+    <nav id="nav">
+        <img src="images/โลโก้.png" alt="logo" width="70" height="100">
+        <a href="index.html">หน้าหลัก</a>
+        <a href="pages/about.html">เกี่ยวกับเรา</a>
+        <a href="pages/contact.html">ติดต่อเรา</a>
+    </nav>
+    <hr>
+    <section>
+        <h1>Gallery</h1>
+        <figure>
+            <a href="images/products/เค้กช็อกโกแลต.jpg">
+                <img src="images/products/เค้กช็อกโกแลต.jpg" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>เมนูเค้ก:</strong>
+                    เค้กช็อกโกแลต
+                </p>
+                <p>
+                    <strong>ราคา:</strong>
+                     55 บาท
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            <a href="images/products/เค้กสตรอเบอรี่ชีสเค้ก.png">
+                <img src="images/products/เค้กสตรอเบอรี่ชีสเค้ก.png" alt="product2" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>เมนูเค้ก:</strong>
+                    เค้กสตรอเบอรี่ชีสเค้ก
+                </p>
+                <p>
+                    <strong>ราคา:</strong>
+                     75 บาท
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            <a href="images/products/เค้กส้ม.jpg">
+                <img src="images/products/เค้กส้ม.jpg" alt="product3" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>เมนูเค้ก:</strong>
+                    เค้กส้ม
+                </p>
+                <p>
+                    <strong>ราคา:</strong>
+                     45 บาท
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            
+        <hr>
+    </section>
+    
+    <a href="#nav">กลับด้านบน</a>
+</body>
+</html>
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
 
 
+![สกรีนช็อต 2025-02-06 005300](https://github.com/user-attachments/assets/ed870241-0fc9-4138-8bc7-52a2194381ec)
+
+![สกรีนช็อต 2025-02-06 005310](https://github.com/user-attachments/assets/b1b971f5-151a-4619-9f49-b267286e6980)
 
